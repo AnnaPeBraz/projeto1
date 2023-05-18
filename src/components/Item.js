@@ -13,4 +13,9 @@ Item.propTypes = {
     lancamento: PropTypes.number,
 }
 
+Item.defaultProps = {
+    marca: 'Meh',
+    lancamento: 0,
+}
+
 export default Item;
